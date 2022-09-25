@@ -1,0 +1,22 @@
+/* CAROUSEL */
+.carousel__left{
+    position:relative;
+    left:10em;
+    z-index:9;
+}
+.carousel__left h2{
+    color:#f4f4f4;
+    font-size:120px;
+    font-weight: bold;
+    margin-left:-.5em;
+}
+.carousel__left h1{
+    font-size:50px;
+    font-weight:bold;
+    line-height: 60px;
+    margin-bottom:1.5rem;
+    color:var(--heading__color);
+}
+.carousel__left p{
+    font-size:20px;
+}
