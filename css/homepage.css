@@ -9,6 +9,7 @@
     font-size:120px;
     font-weight: bold;
     margin-left:-.5em;
+    line-height: 28px;
 }
 .carousel__left h1{
     font-size:50px;
@@ -19,4 +20,8 @@
 }
 .carousel__left p{
     font-size:20px;
+}
+.carousel__right img{
+    height:100vh;
+
 }
