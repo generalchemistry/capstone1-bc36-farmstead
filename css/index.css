@@ -19,10 +19,21 @@ html, body{
 }
 h1, h2, h3, h4{
     font-family:'Volkhov', serif;
+    margin:0;
 }
 button{
     background-color: transparent;
     border:none;
+}
+.row{
+    margin:0;
+    padding:0;
+}
+p{
+    margin:0;
+    padding:0;
+    line-height: 27px;
+    font-size:17px;
 }
 button:focus{
     outline:none;
@@ -32,9 +43,15 @@ button:focus{
     line-height: 26px;
     padding:12px 30px;
     background-color: #fb811e;
+    font-weight: 600;
     border:none;
     color:#fff;
     border-radius:30px;
+    transition: all 0.25s;
+}
+.btn__style:hover{
+    background-color: #009f4d;
+    color:white;
 }
 /* HEADER */
 header{
@@ -177,4 +194,11 @@ header.nav__fixed{
 }
 header.nav__fixed .navbar-brand,header.nav__fixed .mode_lightdark .material-symbols-outlined, header.nav__fixed .dropdown-toggle{
     color:#060606;
+}
+
+@media screen and (min-width:1280px) {
+    .container {
+        max-width:1200px;
+    }
+    
 }
