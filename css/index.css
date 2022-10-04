@@ -3,6 +3,7 @@
     --bg__color:white;
     --font__color:#707070;
     --heading__color:#060606;
+    --shadow__color:rgb(0 0 0 / 3%);
 }
 *{
     padding:0;
@@ -25,10 +26,7 @@ button{
     background-color: transparent;
     border:none;
 }
-.row{
-    margin:0;
-    padding:0;
-}
+
 p{
     margin:0;
     padding:0;
