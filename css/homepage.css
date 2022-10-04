@@ -119,3 +119,67 @@ box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
 }
 
 /* SERVICES */
+.services{
+    background-color: #009f4d;
+    padding: 3rem 0;
+}
+.services .header h3,.services .header h2 {
+    color:white;
+}
+.services__title p{
+    font-size: 1.25rem;
+    font-weight: lighter;
+    font-family:'Source Sans Pro';
+    color:white;
+    position: relative;
+}
+.services__title h1{
+    position:absolute;
+    color:white;
+    font-weight: bold;
+    opacity: 0.14;
+    font-size:12vw;
+    left:50%;
+    transform: translate(-50%,10px);
+
+}
+.services__item{
+    background-color: white;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
+    border:1px solid var(--border-color-light);
+    border-top:none;
+    box-shadow: 0 25px 98px 0 rgb(19 19 19 / 3%);
+}
+.services__img img{
+    width:100%; 
+}
+.services__content{
+    padding:30px 20px;
+}
+.services__content span{
+    color:#009f4d;
+    background-color: rgb(0 159 77 / 16%);
+    padding:5.5px 20px;
+    border-radius: 15px;
+    font-weight: 600;
+    display:inline-block;
+}
+.services__content h4{
+    line-height: 30px;
+    font-weight: 600;
+    color:var(--heading__color);
+    font-size:24px;
+    margin:15px 0;
+    font-family: "Source Sans Pro";
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.services__content h4:hover{
+    color:#009f4d;
+}
+.services__content p{
+    color:#707070;
+}
