@@ -372,6 +372,7 @@ box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
 
 
 @media screen and (max-width:1440px) {
+    /* BANNER */
     .banner .container-fluid .carousel__left h2{
         font-size:100px;
     }
@@ -384,6 +385,7 @@ box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
     
 }
 @media screen and (max-width:1150px) {
+    /* BANNER */
     .banner .container-fluid .carousel__left{
         left:5em;
     }
@@ -399,7 +401,14 @@ box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
     }
 }
 @media screen and (max-width:991px){
-    
+    .header h3{
+        font-size:20px;
+    }
+    .header h2{
+        font-size:35px;
+        line-height: 45px;
+    }
+    /* BANNER */
     .banner .container-fluid .carousel__left{
         left:2em;
     }
@@ -410,8 +419,23 @@ box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
         font-size:32px;
         line-height: 42px;
     }
+
+    
+}
+@media screen and (max-width:800px)  {
+    .feature__item{
+        padding:1.5em;
+    }
 }
 @media screen and (max-width:768px)  {
+    .header h3{
+        font-size:18px;
+    }
+    .header h2{
+        font-size:32px;
+        line-height: 42px;
+    }
+    /* BANNER */
     .banner .container-fluid .carousel__left{
         left:0em;
         padding:2em;
@@ -422,7 +446,25 @@ box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
         border-radius: 8px;
     }
 }
+@media screen and (max-width:667px){
+    /* FEATURE */
+    .feature__left p{
+        margin: 14px 0 26px;
+    }
+    .feature__item h4{
+        font-size:18px;
+    }
+}
+
 @media screen and (max-width:568px)  {
+    .header h3{
+        font-size:18px;
+    }
+    .header h2{
+        font-size:30px;
+        line-height: 40px;
+    }
+    /* BANNER */
     .banner .container-fluid .carousel__left h2{
         font-size:70px;
     }
@@ -433,8 +475,19 @@ box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
     .banner .container-fluid .carousel__left p{
         font-size:16px;
     }
+
+    /* FEATURE */
+    .feature__item h4{
+        margin-bottom: 7px;
+    }
+    .feature__left p{
+        margin: 0;
+        margin-bottom:10px;
+    }
+    
 }
 @media screen and (max-width:480px) {
+    /* BANNER */
     .banner .container-fluid .carousel__left{
         padding:1em;
     }
@@ -452,4 +505,12 @@ box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
         padding:2.5em 2em 2em 2.5em;
     }
     
+    /* FEATURE */
+    .feature__left p{
+        font-size:15px;
+    }
+    .feature__right{
+        grid-template-columns:1fr;
+        grid-gap:20px;
+    }
 }
