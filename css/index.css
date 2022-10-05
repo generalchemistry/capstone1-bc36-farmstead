@@ -1,16 +1,10 @@
-
-:root{
-    --bg__color:white;
-    --font__color:#707070;
-    --heading__color:#060606;
-    --shadow__color:rgb(0 0 0 / 3%);
-}
 *{
     padding:0;
     margin:0;
     box-sizing:border-box;
 }
 
+/* HTML - BODY */
 html, body{
     font-family: 'Source Sans Pro', sans-serif;
     color:var(--font__color);
@@ -18,28 +12,33 @@ html, body{
     font-weight:400;
     line-height:1.5;
 }
+
 h1, h2, h3, h4{
     font-family:'Volkhov', serif;
     margin:0;
     line-height: 28px;
 }
-button{
-    background-color: transparent;
-    border:none;
-}
-a, a:hover{
-    text-decoration: none;
-    color:unset;
-}
+
 p{
     margin:0;
     padding:0;
     line-height: 27px;
     font-size:17px;
 }
+
+a, a:hover{
+    text-decoration: none;
+    color:unset;
+}
+
+button{
+    background-color: transparent;
+    border:none;
+}
 button:focus{
     outline:none;
 }
+
 .btn__style{
     font-size:16px;
     line-height: 26px;
@@ -51,10 +50,12 @@ button:focus{
     border-radius:30px;
     transition: all 0.25s;
 }
+
 .btn__style:hover{
     background-color: #009f4d;
     color:white;
 }
+
 /* HEADER */
 header{
     height:90px;
@@ -100,7 +101,6 @@ header .dropdown-menu{
     display:block;
     overflow: hidden;
     visibility: hidden;
-
 
 }
 header .dropdown-menu.show{
@@ -188,7 +188,6 @@ header .mode_lightdark button:nth-child(1) {
     display:none;
 }
 
-
 /* FIXED_TOP */
 header.nav__fixed{
     background-color:var(--bg__color);
@@ -200,7 +199,6 @@ header.nav__fixed .navbar-brand,header.nav__fixed .mode_lightdark .material-symb
 }
 
 /* FOOTER */
-
 footer{
     padding:3rem 0;
 }
@@ -323,5 +321,11 @@ footer .social__app a i:hover{
     .container {
         max-width:1200px;
     }
-    
+}
+
+:root{
+    --bg__color:white;
+    --font__color:#707070;
+    --heading__color:#060606;
+    --shadow__color:rgb(0 0 0 / 3%);
 }

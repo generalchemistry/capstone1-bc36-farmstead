@@ -11,26 +11,29 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- FONT AWESOME -->
+    <!-- FONT ICON -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
     <!-- FONT GOOGLE -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind:wght@100;300;400;700&display=swap" rel="stylesheet">
     <link href="//fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
         rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/homepage.css">
+    
     <!-- FANCY APP -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+        
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/homepage.css">   
 </head>
 
 <body class="darklight__theme">
+    <!-- HEADER -->
     <header class="header__nav fixed-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg">
@@ -76,6 +79,8 @@
         </div>
 
     </header>
+
+    <!-- BANNER -->
     <section class="banner">
         <div class="container-fluid">
             <div class="row d-flex align-items-center">
@@ -115,7 +120,6 @@
                                 <p>Organic Farm</p>
                             </div>
                         </div>
-
                     </div>
                     <ol class="carousel-indicators">
                         <li data-target="#carousel__farmstead" data-slide-to="0" class="active"></li>
@@ -126,6 +130,7 @@
                 </div>
             </div>
     </section>
+    <!-- FEATURE -->
     <section class="feature">
         <div class="container py-md-5 py-4">
             <div class="row align-items-center">
@@ -164,6 +169,8 @@
             </div>
         </div>
     </section>
+
+    <!-- SERVICES -->
     <section class="services">
        <div class="container py-md-5 py-4">
         <div class=" services__title row align-items-center mb-sm-5 mb-4 pb-xl-4">
@@ -216,6 +223,8 @@
         </div>
        </div> 
     </section>
+
+    <!-- BLOG -->
     <section class="blog">
         <div class="container py-md-5 py-4">
             <div class="row align-items-center">
@@ -252,6 +261,8 @@
             </div>
         </div>
     </section>
+
+    <!-- GALLERY -->
     <section class="gallery">
         <div class="container">
             <div class="row">
@@ -324,6 +335,8 @@
             </div>
         </div>
     </section>
+
+    <!-- PRODUCT -->
     <section class="product">
         <div class="container py-md-5 py-4 ">
             <div class="row no-gutters">
@@ -378,6 +391,8 @@
             </div>
         </div>
     </section>
+
+    <!-- FEEDBACK -->
     <section class="feedback">
         <div class="container py-lg-5">
             <div id="feedback__object" class="carousel slide py-md-5 py-4" data-ride="carousel" data-touch="true">
@@ -432,6 +447,8 @@
               </div>
         </div>
     </section>
+    
+    <!-- FOOTER -->
     <footer>
         <div class="container py-4">
             <div class="row">
@@ -471,8 +488,11 @@
             </div>
         </div>
     </footer>
+
+    <!-- BACKTOTOP -->
     <a class="backToTop cd-top text-replace js-cd-top" href="#"><i class="fa fa-level-up"></i></a>
-    <!-- Optional JavaScript -->
+
+    
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -483,6 +503,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <!-- FANCY APP -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+    <!-- BACKTOTOP -->
+    <script src="../javascript/main.js"></script>
+    <script src="../javascript/util.js"></script>
+
     <!-- SCROLL HEADER -->
     <script>
         $(window).on("scroll", function () {
@@ -495,6 +523,7 @@
             }
         })
     </script>
+    
     <!-- DARK_LIGHT MODE -->
     <script>
         function darkMode() {
@@ -504,12 +533,7 @@
             $(".darklight__theme").removeClass("dark__mode");
         }
     </script>
-    <!-- FANCY APP -->
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js
-    "></script>
-    <!-- BACKTOTOP -->
-    <script src="../javascript/main.js"></script>
-    <script src="../javascript/util.js"></script>
+    
 </body>
 
 </html>
