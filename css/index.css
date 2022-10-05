@@ -77,11 +77,13 @@ header .navbar-brand{
     padding:0;
     position:relative;
     transition: all 0.5s;
+    outline:none;
+    margin-bottom:2px;
 }
 header .navbar-brand i{
     position:absolute;
     font-size:20px;
-    top:-10px;
+    top:-11px;
     left:55px;
 }
 header .navbar-brand:hover{
@@ -156,19 +158,18 @@ header .header__search input:focus{
 
 /* HEADER DARK_LIGHT MODE */
 header .mode_lightdark {
-
     width: 34px;
     height: 24px;
-    margin-right:10px;
+    margin:0 10px 0 7px;
     text-align:center;
 }
 
 header .material-symbols-outlined{
     color:white;
-    font-size:26px;
-    line-height: 24px;
+    font-size:28px;
+    line-height: 20px;
+    font-weight: 300;
     cursor:pointer;
-
 }
 header .navbar button:hover .material-symbols-outlined{
     color:#fb811e;
@@ -322,7 +323,29 @@ footer .social__app a i:hover{
         max-width:1200px;
     }
 }
-
+@media screen and (max-width:991px){
+    header{
+        height: auto;
+        padding:17px 0;
+    }
+    header.nav__fixed{
+        height: auto;
+        padding: 14px 0;
+    }
+}
+@media screen and (max-width:768px)  {
+    header .navbar-brand{
+        color:white;
+    }
+    header.nav__fixed .navbar-brand{
+        color:#fb811e;
+    } 
+}
+@media screen and (max-width:480px) {
+    header .navbar-brand{
+        font-size:28px;
+    }  
+}
 :root{
     --bg__color:white;
     --font__color:#707070;
