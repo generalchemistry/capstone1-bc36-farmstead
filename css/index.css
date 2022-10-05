@@ -188,6 +188,7 @@ header .mode_lightdark button:nth-child(1) {
     display:none;
 }
 
+
 /* FIXED_TOP */
 header.nav__fixed{
     background-color:var(--bg__color);
@@ -197,6 +198,98 @@ header.nav__fixed{
 header.nav__fixed .navbar-brand,header.nav__fixed .mode_lightdark .material-symbols-outlined, header.nav__fixed .dropdown-toggle{
     color:#060606;
 }
+
+/* FOOTER */
+
+footer{
+    padding:3rem 0;
+}
+footer h4{
+    font-size:20px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: var(--heading__color)
+}
+footer .logo a{
+    position:relative;
+    color:#fb811e;
+    transition: all 0.5s;
+}
+footer .logo h2{
+    font-size:32px;
+}
+footer .logo i{
+    position:absolute;
+    top:-12px;
+    left:54px;
+    font-size:20px;
+}
+footer .logo a:hover{
+    color: var(--heading__color);
+}
+footer #contact p{
+    line-height: 24px;
+}
+footer #contact p>span{
+    cursor:pointer;
+    transition: all 0.5s;
+}
+footer #contact p>span:hover{
+    color:#fb811e;
+}
+footer #copyright span{
+   color:#009f4d;
+   cursor:pointer;
+   transition: all 0.5s;
+}
+footer #copyright span:hover{
+    color:#fb811e;
+}
+footer form input{
+    background-color: #f4f4f4;
+    padding:12px 20px;
+    font-size:16px;
+    outline:none;
+    width:80%;
+    color:var(--font__color);
+    border:1px solid #eee;
+    border-radius: 30px 0px 0px 30px;
+}
+footer form button{
+    background-color: #009f4d;
+    border-radius: 0px 30px 30px 0px;
+    color:white;
+    width:20%;
+    padding:12px 12px;
+    outline:none;
+    border:none;
+    font-size:16px;
+    transition: all 0.5s;
+}
+footer form button:hover{
+    opacity: 0.8;
+}
+footer .social__app a{
+    margin-right:5px;
+}
+footer .social__app a i{
+    color:#009f4d;
+    background-color: rgb(10 191 83 / 8%);
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 15px;
+    transition:all 0.5s
+}
+footer .social__app a i:hover{
+    color:#fb811e;
+    background-color: rgb(255 201 69 / 19%);
+    box-shadow: 0px 4px 7px 0px rgb(10 10 10 / 24%);
+}
+
 
 @media screen and (min-width:1280px) {
     .container {
