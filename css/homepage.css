@@ -41,7 +41,7 @@
     border-radius: 50%;
     opacity: 1;
     background-color: white;
-    margin: 0 5px;
+    margin: 0 5.5px;
     transition: all 0.5s;
 }
 .banner .carousel-indicators li.active{
@@ -370,3 +370,86 @@ box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
     opacity: 1;
 }
 
+
+@media screen and (max-width:1440px) {
+    .banner .container-fluid .carousel__left h2{
+        font-size:100px;
+    }
+    .banner .container-fluid .carousel__left h1{
+        font-size:40px;
+        line-height: 50px;
+    }
+}
+@media screen and (max-width:1200px) {
+    
+}
+@media screen and (max-width:1150px) {
+    .banner .container-fluid .carousel__left{
+        left:5em;
+    }
+    .banner .container-fluid .carousel__left h2{
+        font-size:90px;
+    }
+    .banner .container-fluid .carousel__left h1{
+        font-size:35px;
+        line-height: 45px;
+    }
+    .banner .container-fluid .carousel__left p{
+        font-size:17px;
+    }
+}
+@media screen and (max-width:991px){
+    
+    .banner .container-fluid .carousel__left{
+        left:2em;
+    }
+    .banner .container-fluid .carousel__left h2{
+        font-size:80px;
+    }
+    .banner .container-fluid .carousel__left h1{
+        font-size:32px;
+        line-height: 42px;
+    }
+}
+@media screen and (max-width:768px)  {
+    .banner .container-fluid .carousel__left{
+        left:0em;
+        padding:2em;
+    }
+    .banner .container-fluid .carousel__left__contain{
+        background-color: var(--bg__color);
+        padding:3em 2em 2em 4em;
+        border-radius: 8px;
+    }
+}
+@media screen and (max-width:568px)  {
+    .banner .container-fluid .carousel__left h2{
+        font-size:70px;
+    }
+    .banner .container-fluid .carousel__left h1{
+        font-size:28px;
+        line-height: 38px;
+    }
+    .banner .container-fluid .carousel__left p{
+        font-size:16px;
+    }
+}
+@media screen and (max-width:480px) {
+    .banner .container-fluid .carousel__left{
+        padding:1em;
+    }
+    .banner .container-fluid .carousel__left h2{
+        font-size:60px;
+    }
+    .banner .container-fluid .carousel__left h1{
+        font-size:25px;
+        line-height: 35px;
+    }
+    .banner .container-fluid .carousel__left p{
+        font-size:16px;
+    }
+    .banner .container-fluid .carousel__left__contain{
+        padding:2.5em 2em 2em 2.5em;
+    }
+    
+}
