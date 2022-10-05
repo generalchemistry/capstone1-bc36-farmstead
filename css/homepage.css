@@ -228,3 +228,28 @@ box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
 }
 
 /* GALLERY */
+.gallery__item{
+    margin-top: 30px;
+}
+.gallery__item a{
+    padding: 2rem 1rem;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: all 0.3 ease-in;
+}
+.gallery__item a:hover{
+    border-color:#eee;
+    background-color:white;
+}
+.gallery__detail h4{
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color:var(--heading__color);
+    transition:0.3s ease-in-out;
+}
+.gallery__detail h4:hover{
+    color:#009f4d;
+    
+}
