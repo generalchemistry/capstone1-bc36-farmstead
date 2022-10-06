@@ -360,6 +360,13 @@ footer .social__app a i:hover{
     }
 }
 @media screen and (max-width:991px){
+    .header h3{
+        font-size:20px;
+    }
+    .header h2{
+        font-size:35px;
+        line-height: 45px;
+    }
     /* HEADER */
     header{
         height: auto;

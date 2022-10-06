@@ -64,6 +64,15 @@
     font-weight:400 ;
 }
 
+/* ABOUT */
+.about__right img{
+    width: 100%;
+    display:block;
+    border-radius: 8px;
+}
+.about .row{
+    padding: 0 15px;
+}
 
 /* SERVICES */
 .services{
