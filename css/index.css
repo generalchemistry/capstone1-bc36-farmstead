@@ -98,6 +98,7 @@ header .dropdown{
 
 }
 header .dropdown-menu{
+    background-color: var(--bg__color);
     min-width:232px;
     max-height:0px;
     margin:0;
@@ -117,7 +118,7 @@ header .dropdown-toggle{
     font-size:28px;
 }
 header .dropdown-menu a{
-    color:#060606;
+    color:var(--heading__color);
     padding:7px;
     text-align:center;
     font-size:1rem;
@@ -141,7 +142,7 @@ header .header__search{
 
 /* HEADER SEARCH */
 header .header__search input{
-    background: var(--bg__color) url(../image/homepage/search.png) no-repeat 10px center;
+    background: white url(../image/homepage/search.png) no-repeat 10px center;
     border:solid 1px #eee;
     padding:0 10px;
     border-radius:10em;
@@ -165,7 +166,6 @@ header .mode_lightdark {
     margin:0 10px 0 7px;
     text-align:center;
 }
-
 header .material-symbols-outlined{
     color:white;
     font-size:28px;
@@ -198,7 +198,7 @@ header.nav__fixed{
     box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
 }
 header.nav__fixed .navbar-brand,header.nav__fixed .mode_lightdark .material-symbols-outlined, header.nav__fixed .dropdown-toggle{
-    color:#060606;
+    color:var(--heading__color);
 }
 
 /* FOOTER */
@@ -235,11 +235,11 @@ footer p.firstChildLogo{
 footer #contact p{
     line-height: 24px;
 }
-footer #contact p>span{
+footer #contact p span{
     cursor:pointer;
     transition: all 0.5s;
 }
-footer #contact p>span:hover{
+footer #contact p span:hover{
     color:#fb811e;
 }
 footer #copyright span{
@@ -251,13 +251,14 @@ footer #copyright span:hover{
     color:#fb811e;
 }
 footer form input{
-    background-color: #f4f4f4;
+    background-color: var(--bg__grey);
+    border-color:none;
     padding:12px 20px;
     font-size:16px;
     outline:none;
     width:80%;
     color:var(--font__color);
-    border:1px solid #eee;
+    border:1px solid var(--border__color);
     border-radius: 30px 0px 0px 30px;
 }
 footer form button{
@@ -411,4 +412,23 @@ footer .social__app a i:hover{
     --font__color:#707070;
     --heading__color:#060606;
     --shadow__color:rgb(0 0 0 / 3%);
+    --bg__grey: #f4f4f4;
+    --border__color: #eee;
+}
+[data-theme="dark"]{
+    --bg__color:#222222;
+    --font__color:#b7b7b7;
+    --heading__color:#fdfffc;
+    --shadow__color:rgb(23 19 19);
+    --bg__grey:#0b0d0e;
+    --border__color: rgba(255, 255, 255, 0.2);
+}
+[data-theme="light"]{
+    --bg__color:white;
+    --font__color:#707070;
+    --heading__color:#060606;
+    --shadow__color:rgb(0 0 0 / 3%);
+    --bg__grey: #f4f4f4;
+    --border__color: #eee;
+   
 }
