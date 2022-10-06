@@ -17,6 +17,7 @@ h1, h2, h3, h4{
     font-family:'Volkhov', serif;
     margin:0;
     line-height: 28px;
+    padding:0;
 }
 
 p{
@@ -48,7 +49,8 @@ button:focus{
     border:none;
     color:#fff;
     border-radius:30px;
-    transition: all 0.25s;
+    transition: all 0.5s;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .btn__style:hover{
@@ -78,12 +80,12 @@ header .navbar-brand{
     position:relative;
     transition: all 0.5s;
     outline:none;
-    margin-bottom:2px;
+    margin-bottom:4px;
 }
 header .navbar-brand i{
     position:absolute;
     font-size:20px;
-    top:-11px;
+    top:-10px;
     left:55px;
 }
 header .navbar-brand:hover{
@@ -220,12 +222,15 @@ footer .logo h2{
 }
 footer .logo i{
     position:absolute;
-    top:-12px;
+    top:-10.5px;
     left:54px;
     font-size:20px;
 }
 footer .logo a:hover{
     color: var(--heading__color);
+}
+footer p.firstChildLogo{
+    margin-top:26px;
 }
 footer #contact p{
     line-height: 24px;
@@ -324,17 +329,27 @@ footer .social__app a i:hover{
     }
 }
 @media screen and (max-width:1440px) {
-    
+
 }
 @media screen and (max-width:1200px) {
     p{
         line-height: 26px;
     }
+    
+
+    
 }
-@media screen and (max-width:1150px) {
-   
+@media screen and (max-width:1190px) {
+    /* FOOTER */
+    footer h4{
+        font-size:16px;
+    }
+    footer form button{
+        width:30%;
+    }
 }
 @media screen and (max-width:991px){
+    /* HEADER */
     header{
         height: auto;
         padding:17px 0;
@@ -343,20 +358,53 @@ footer .social__app a i:hover{
         height: auto;
         padding: 14px 0;
     }
+    /* FOOTER */
+    footer h4{
+        margin-bottom:10px;
+    }
     
 }
+@media screen and (max-width:801px) {
+     /* FOOTER */
+    footer h4{
+        margin-bottom:18px;
+    }
+}
 @media screen and (max-width:768px)  {
+    /* HEADER */
     header .navbar-brand{
         color:white;
     }
     header.nav__fixed .navbar-brand{
         color:#fb811e;
+    }
+}
+@media screen and (max-width:640px){
+     /* FOOTER */
+    footer form button{
+       padding:12px 10px;
     } 
 }
 @media screen and (max-width:480px) {
     header .navbar-brand{
         font-size:28px;
-    }  
+    }
+}
+@media screen and (max-width:420px) {
+    /* FOOTER */
+    footer form button{
+    width: 20%;
+ } 
+}
+ 
+@media screen and (max-width:320px) {
+    header .navbar-brand{
+        font-size:25px;
+        margin-right:0;
+    }
+    header .header__search,header .mode_lightdark{
+        margin:0;
+    }
 }
 :root{
     --bg__color:white;
