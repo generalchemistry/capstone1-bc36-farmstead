@@ -110,6 +110,9 @@ box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
     background-color: #009f4d;
     padding: 3rem 0;
 }
+.services__title{
+    position:relative;
+}
 .services .header h3,.services .header h2 {
     color:white;
 }
@@ -118,7 +121,6 @@ box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
     font-weight: 300;
     font-family:'Source Sans Pro', sans-serif;
     color:white;
-    position: relative;
 }
 .services__title h1{
     position:absolute;
@@ -126,8 +128,9 @@ box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
     font-weight: bold;
     opacity: 0.14;
     font-size:12vw;
-    left:50%;
-    transform: translateX(-50%);
+    bottom:50%;
+    right:50%;
+    transform: translate(50%,50%);
 }
 .services__item{
     background-color: var(--bg__color);
@@ -553,6 +556,7 @@ box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
     }
 }
 @media screen and (max-width:450px){
+    /* PRODUCT */
     .product .row .product__item:nth-child(1){
         flex:0 0 100%;
         max-width:100%;
