@@ -57,6 +57,16 @@ button:focus{
     background-color: #009f4d;
     color:white;
 }
+.header h3{
+    color:#fb811e;
+    font-size:22px;
+}
+.header h2{
+    font-size:40px;
+    line-height: 50px;
+    font-weight: 600;
+    color:var(--heading__color);
+}
 
 /* HEADER */
 header{
@@ -379,12 +389,28 @@ footer .social__app a i:hover{
     header.nav__fixed .navbar-brand{
         color:#fb811e;
     }
+    .header h3{
+        font-size:18px;
+    }
+    .header h2{
+        font-size:32px;
+        line-height: 42px;
+    }
 }
 @media screen and (max-width:640px){
      /* FOOTER */
     footer form button{
        padding:12px 10px;
     } 
+}
+@media screen and (max-width:568px)  {
+    .header h3{
+        font-size:18px;
+    }
+    .header h2{
+        font-size:30px;
+        line-height: 40px;
+    }   
 }
 @media screen and (max-width:480px) {
     header .navbar-brand{

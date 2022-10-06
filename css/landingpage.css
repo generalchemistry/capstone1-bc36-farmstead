@@ -64,46 +64,6 @@
     font-weight:400 ;
 }
 
-/* FEATURE */
-.feature{
-    padding: 3rem 0;
-}
-.feature__right{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap:20px;
-}
-.feature__item{
-    padding: 40px 30px;
-    text-align:center;
-    background-color: var(--bg__color);
-    box-shadow: 0 1rem 3rem var(--shadow__color);
-    border-radius: 30px;
-    transition:all 0.3s
-}
-.feature__item .container{    
-    display:flex;
-    flex-direction: column;
-    align-items: center;   
-}
-.feature__item img{
-    max-width: 65px;
-}
-.feature__item h4{
-    font-size:20px;
-    line-height: 28px;
-    font-weight: 600;
-    color:var(--heading__color);
-    margin-top: 25px;
-    transition: all 0.5s;
-    cursor: pointer;
-}
-.feature__item:hover{
-box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
-}
-.feature__item h4:hover{
-    color:#009f4d;
-}
 
 /* SERVICES */
 .services{
@@ -431,7 +391,6 @@ box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
     .gallery__detail h4{
         font-size:20px;
     }
-    
     /* PRODUCT */
     .product .header h2{
         font-size:35px;
@@ -441,10 +400,7 @@ box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
 }
 
 @media screen and (max-width:800px)  {
-    /* FEATURE */
-    .feature__item{
-        padding:1.5em;
-    }
+
 }
 @media screen and (max-width:768px)  {
     /* BANNER */
@@ -483,13 +439,7 @@ box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
     }
 }
 @media screen and (max-width:667px){
-    /* FEATURE */
-    .feature__left p{
-        margin: 14px 0 26px;
-    }
-    .feature__item h4{
-        font-size:18px;
-    }
+
 }
 @media screen and (max-width:576px){
     /* FEEDBACK */
@@ -509,16 +459,6 @@ box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
     .banner .container-fluid .carousel__left p{
         font-size:16px;
     }
-
-    /* FEATURE */
-    .feature__item h4{
-        margin-bottom: 7px;
-    }
-    .feature__left p{
-        margin: 0;
-        margin-bottom:10px;
-    }
-
     /* PRODUCT */
     .product .header h2{
         font-size:30px;
@@ -542,18 +482,11 @@ box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
     }
     .banner .container-fluid .carousel__left__contain{
         padding:2.5em 2em 2em 2.5em;
-    }
-    
-    /* FEATURE */
-    .feature__left p{
-        font-size:15px;
-    }
-    .feature__right{
-        grid-template-columns:1fr;
-        grid-gap:20px;
-    }
+    } 
+
 }
 @media screen and (max-width:450px){
+    /* PRODUCT */
     .product .row .product__item:nth-child(1){
         flex:0 0 100%;
         max-width:100%;

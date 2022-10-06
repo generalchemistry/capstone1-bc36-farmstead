@@ -1,116 +1,176 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-    <title>Farmstead – WordPress Theme – Just another W3Layouts free WordPress Demo Sites site</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <title>Farmstead – WordPress Theme – Just another W3Layouts free WordPress Demo Sites site</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+        <!-- FONT ICON -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        
+        <!-- FONT GOOGLE -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hind:wght@100;300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="//fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+            rel="stylesheet">
+        
+        <!-- FANCY APP -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+            
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="../css/index.css">
+        <link rel="stylesheet" href="../css/services.css">
+    </head>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- FONT GOOGLE -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="../css/index.css">
-</head>
-
-<body class="darklight__theme">
-    <header class="header__nav fixed-top">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg">
-                <h1>
-                    <a class="navbar-brand" href="#">
-                        Farmstead
-                        <i class="fa fa-leaf"></i>
-                    </a>
-                </h1>
-                <nav class="d-flex justify-content-between align-items-center">
-                    <div class="header__search">
-                        <form action="">
-                            <input type="search" name="" placeholder="Search">
-                        </form>
-                    </div>
-                    <div class="mode_lightdark">
-                        <button onclick="darkMode();">
-                            <span class="material-symbols-outlined">
-                                dark_mode
-                            </span>
-                        </button>
-                        <button onclick="lightMode();">
-                            <span class="material-symbols-outlined">
-                                light_mode
-                            </span>
-                        </button>
-
-                    </div>
-                    <div class="dropdown">
-                        <a class=" dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                            <i class="fa fa-bars"></i>
+    <body class="darklight__theme">
+        <!-- HEADER -->
+        <header class="header__nav fixed-top">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <h1>
+                        <a class="navbar-brand" href="#">
+                            Farmstead
+                            <i class="fa fa-leaf"></i>
                         </a>
-                        <div class="dropdown-menu dropdown-menu-right">
-                            <a class="dropdown-item" href="./index.html">HOME</a>
-                            <a class="dropdown-item" href="./about.html">ABOUT</a>
-                            <a class="dropdown-item active" href="./services.html">SERVICES</a>
-                            <a class="dropdown-item" href="./blog.html">BLOG POSTS</a>
-                            <a class="dropdown-item" href="./landingpage.html">LANDING PAGE</a>
-                            <a class="dropdown-item" href="./contact.html">CONTACT</a>
+                    </h1>
+                    <nav class="d-flex justify-content-between align-items-center">
+                        <div class="header__search">
+                            <form action="">
+                                <input type="search" name="" placeholder="">
+                            </form>
+                        </div>
+                        <div class="mode_lightdark">
+                            <button onclick="darkMode();">
+                                <span class="material-symbols-outlined">
+                                    dark_mode
+                                </span>
+                            </button>
+                            <button onclick="lightMode();">
+                                <span class="material-symbols-outlined">
+                                    light_mode
+                                </span>
+                            </button>
+                        </div>
+                        <div class="dropdown">
+                            <a class=" dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="../index.html">HOME</a>
+                                <a class="dropdown-item" href="./about.html">ABOUT</a>
+                                <a class="dropdown-item active" href="./services.html">SERVICES</a>
+                                <a class="dropdown-item" href="./blog.html">BLOG POSTS</a>
+                                <a class="dropdown-item" href="./landingpage.html">LANDING PAGE</a>
+                                <a class="dropdown-item" href="./contact.html">CONTACT</a>
+                            </div>
+                        </div>
+                    </nav>
+                </nav>
+            </div>
+    
+        </header>
+        
+        
+        <!-- FOOTER -->
+        <footer>
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-lg-4 order-lg-1 order-3 mt-lg-0 mt-5">
+                        <div class="logo">
+                            <a href="#">
+                                <i class="fa fa-leaf" aria-hidden="true"></i>
+                                <h2>Farmstead</h2>
+                            </a>
+                        </div>
+                        <p class="firstChildLogo">Duis imperdiet sapien tortor, vitae congue diam auctor vitae. Aliquam eget turpis ornare, euismod ligul aeget, enenatis dui.</p>
+                        <p class="mt-5" id="copyright">© 2022 Farmstead. All Rights Reserved | WordPress Theme by <span>W3Layouts.</span></p>
+                    </div>
+                    <div class="col-lg-4 pl-lg-5" id="contact">
+                        <h4>FIND US</h4>
+                        <p>Address: 10001 Alleghany st, 5th Avenue, 235 Terry, London.</p>
+                        <p class="mt-3">Phone: <a href="tel:+12 23456790"><span>+12 23456790</span></a></p>
+                        <p class="mt-3">Email: <a href="mailto:info@example.com"><span>info@example.com</span></a></p>
+                        <p class="mt-3">Fax: <a href="tel:+11 367 21890"><span>+ 11 367 21890</span></a></p>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-7 order-lg-3 order-1 mt-lg-0 mt-5">
+                        <h4>NEWSLETTER</h4>
+                        <p>Subscribe to our mailing list and get updates to your email inbox.</p>
+                        <form action="" class="mt-3 d-flex">
+                            <input type="email" name="" placeholder="Email Address ">
+                            <button type="submit"><span class="fa fa-paper-plane" aria-hidden="true"></span></button>
+                        </form>
+                        <div class="social__app mt-4 pt-2">
+                            <a href="#url"><i class="fa fa-facebook-f"></i></a>
+                            <a href="#url"><i class="fa fa-linkedin"></i></a>
+                            <a href="#url"><i class="fa fa-twitter"></i></a>
+                            <a href="#url"><i class="fa fa-google-plus"></i></a>
+                            <a href="#url"><i class="fa fa-github"></i></a>
                         </div>
                     </div>
-                </nav>
-            </nav>
-        </div>
-
-    </header>
-
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-
-    <!-- SCROLL HEADER -->
-    <script>
-        $(window).on("scroll", function () {
-            var scroll = $(window).scrollTop();
-            if (scroll >= 80) {
-                $(".header__nav").addClass("nav__fixed");
+                </div>
+            </div>
+        </footer>
+    
+        <!-- BACKTOTOP -->
+        <a class="backToTop cd-top text-replace js-cd-top" href="#"><i class="fa fa-level-up"></i></a>
+    
+        
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    
+        <!-- FANCY APP -->
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    
+        <!-- BACKTOTOP -->
+        <script src="../javascript/main.js"></script>
+        <script src="../javascript/util.js"></script>
+    
+        <!-- SCROLL HEADER -->
+        <script>
+            $(window).on("scroll", function () {
+                var scroll = $(window).scrollTop();
+                if (scroll >= 80) {
+                    $(".header__nav").addClass("nav__fixed");
+                }
+                else {
+                    $(".header__nav").removeClass("nav__fixed");
+                }
+            })
+        </script>
+        
+        <!-- DARK_LIGHT MODE -->
+        <script>
+            function darkMode() {
+                $(".darklight__theme").addClass("dark__mode");
+                document.documentElement.setAttribute('data-theme', "dark");
+                document.documentElement.setAttribute('data-theme', "dark")
             }
-            else {
-                $(".header__nav").removeClass("nav__fixed");
+            function lightMode() {
+                $(".darklight__theme").removeClass("dark__mode");;
+                document.documentElement.setAttribute('data-theme', "light");
+                document.documentElement.setAttribute('data-theme', "light")
             }
-        })
-    </script>
-    <!-- DARK_LIGHT MODE -->
-    <script>
-        function darkMode() {
-            $(".darklight__theme").addClass("dark__mode");
-        }
-        function lightMode() {
-            $(".darklight__theme").removeClass("dark__mode");
-        }
-    </script>
-</body>
+        </script>
+        
+    </body>
+
 
 </html>
