@@ -2,6 +2,7 @@
     padding:0;
     margin:0;
     box-sizing:border-box;
+    scroll-behavior: smooth;
 }
 
 /* HTML - BODY */
@@ -447,6 +448,7 @@ footer .social__app a i:hover{
     --shadow__color:rgb(0 0 0 / 3%);
     --bg__grey: #f4f4f4;
     --border__color: #eee;
+    --bg__dark:#fafafa;
 }
 [data-theme="dark"]{
     --bg__color:#222222;
@@ -455,6 +457,7 @@ footer .social__app a i:hover{
     --shadow__color:rgb(23 19 19);
     --bg__grey:#0b0d0e;
     --border__color: rgba(255, 255, 255, 0.2);
+    --bg__dark:#0c0b0b;
 }
 [data-theme="light"]{
     --bg__color:white;
@@ -464,4 +467,5 @@ footer .social__app a i:hover{
     --bg__grey: #f4f4f4;
     --border__color: #eee;
    
+   --bg__dark:#fafafa;
 }
