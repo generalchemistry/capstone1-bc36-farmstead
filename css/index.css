@@ -212,6 +212,27 @@ header.nav__fixed .navbar-brand,header.nav__fixed .mode_lightdark .material-symb
     color:var(--heading__color);
 }
 
+/* BANNER */
+.banner{
+    background-image: url(../image/blogpage/inner-banner.png);
+    background-size:cover;
+    background-position: bottom;
+}
+.banner h2{
+    font-weight: 700;
+    margin-bottom:0.5rem;
+    font-size:1.5rem;
+    color:var(--heading__color)
+}
+.banner span{
+    font-weight: bold;
+    font-size:15px;
+    transition:all 0.5s;
+}
+.banner span:hover{
+    color:#fb811e;
+}
+
 /* FOOTER */
 footer{
     padding:3rem 0;
@@ -347,10 +368,13 @@ footer .social__app a i:hover{
     p{
         line-height: 26px;
     }
-    
+    /* BANNER */
+    .banner h2{
+        font-size: calc(1.275rem + 0.3vw);
+    }
 
-    
 }
+
 @media screen and (max-width:1190px) {
     /* FOOTER */
     footer h4{
