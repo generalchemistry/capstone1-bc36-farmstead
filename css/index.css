@@ -224,12 +224,16 @@ header.nav__fixed .navbar-brand,header.nav__fixed .mode_lightdark .material-symb
     font-size:1.5rem;
     color:var(--heading__color)
 }
-.bannerPage span{
+.bannerPage>span{
+    font-size:15px;
+    font-weight: 400;
+}
+.bannerPage a span{
     font-weight: bold;
     font-size:15px;
     transition:all 0.5s;
 }
-.bannerPage span:hover{
+.bannerPage a span:hover{
     color:#fb811e;
 }
 
