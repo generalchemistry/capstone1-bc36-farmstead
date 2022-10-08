@@ -1,0 +1,6 @@
+@media screen and (max-width:768px)  {
+    /* HEADER */
+    header .navbar-brand{
+        color:var(--heading__color);
+    }
+}

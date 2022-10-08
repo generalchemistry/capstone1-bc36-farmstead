@@ -211,12 +211,16 @@
 
 }
 @media screen and (max-width:768px)  {
-
+    /* HEADER */
+    header .navbar-brand{
+        color:var(--heading__color);
+    }
     /* FEEDBACK */
     .feedback .carousel-indicators{
         margin-bottom:-21px;
     }
 }
+
 @media screen and (max-width:736px){
     /* FEEDBACK */
     .feedback__info h4{

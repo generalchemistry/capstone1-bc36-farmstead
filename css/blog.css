@@ -380,7 +380,12 @@ a.post__heading:hover{
         margin: 14px 0 10px;
     }
 }
-
+@media screen and (max-width:768px)  {
+    /* HEADER */
+    header .navbar-brand{
+        color:var(--heading__color);
+    }
+}
 @media (max-width: 667px){
     /* BLOG */
     .post__content h2{
