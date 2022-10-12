@@ -224,11 +224,11 @@ header.nav__fixed .navbar-brand,header.nav__fixed .mode_lightdark i, header.nav_
 }
 .bannerPage h2{
     font-weight: 700;
-    margin-bottom:0.5rem;
+    margin-bottom:9px;
     font-size:1.5rem;
     color:var(--heading__color)
 }
-.bannerPage>span{
+span.titlePage{
     font-size:15px;
     font-weight: 400;
 }
@@ -473,9 +473,6 @@ footer .social__app a i:hover{
     header .navbar-brand{
         font-size:25px;
         margin-right:0;
-    }
-    header .header__search,header .mode_lightdark{
-        margin:0;
     }
 }
 :root{

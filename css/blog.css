@@ -362,17 +362,13 @@ a.post__heading:hover{
 .post__content.show,.post__comment.show{
     display:block;
 }
-@media (max-width: 1200px){
-    p{
-        line-height: 27px;
-    }
-
+@media screen and (max-width: 1200px){
     /* BLOG */
     .post__comment h2{
         font-size: calc(1.325rem + 0.9vw)
     }
 }
-@media (max-width: 991px){
+@media screen and (max-width: 991px){
     /* BLOG */
     .blog__title h2{
        font-size:22px;
@@ -386,17 +382,26 @@ a.post__heading:hover{
         color:var(--heading__color);
     }
 }
-@media (max-width: 667px){
+@media screen and (max-width: 667px){
     /* BLOG */
     .post__content h2{
         font-size:26px;
         line-height: 34px;
     }
 }
-@media (max-width: 568px){
+@media screen and (max-width: 568px){
     /* BLOG */
     .blog__title h2{
        font-size:20px;
         line-height: 30px;
     }
+}
+@media screen and (max-width: 480px){
+    /* BLOG */
+    .blog__title p{
+       font-size:15px;
+    }
+    .blog__title h2{
+        margin-bottom:15px;
+     }
 }
