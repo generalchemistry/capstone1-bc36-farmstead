@@ -436,7 +436,7 @@
 }
 .team__detail p{
     font-size:16px;
-    margin-top: 1px;
+    margin: -0.2px 0 -1px;
     display:block;
     color:#404040;
 }
@@ -536,6 +536,9 @@
     .team__caption h3{
         font-size: calc(1.275rem + 0.3vw);
     }
+    .team__detail p{
+        margin: 1px 0 -1.2px;
+    }
 }
 @media screen and (max-width:1150px) {
     /* BANNER */
@@ -574,8 +577,6 @@
     .product .header h2{
         font-size:35px;
     }
-    
-    
 }
 
 @media screen and (max-width:768px)  {
@@ -620,9 +621,7 @@
         line-height: 30px;
     }
 }
-@media screen and (max-width:667px){
 
-}
 @media screen and (max-width:576px){
     /* FEEDBACK */
     .feedback .carousel-indicators{
