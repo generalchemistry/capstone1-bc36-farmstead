@@ -1,6 +1,126 @@
+/* PRODUCT */
+.product__item{
+    background-color: var(--bg__color);
+    padding:50px 35px;
+    border-radius: 15px;
+    box-shadow: 0 1rem 3rem var(--shadow__color);
+    transition:all 0.3s;
+}
+.product__item:hover{
+    box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
+}
+.product__item i{
+    font-size:45px;
+    color:#fb811e;
+}
+.product__item h3{
+    color:var(--heading__color);
+    font-weight: 600;
+    line-height: 1.2;
+    margin:25px 0 15px;
+    font-size: 22px;
+    transition: all 0.3s;
+}
+.product__item h3:hover{
+    color:#fb811e;
+}
+
+/* ABOUT */
+.about__left{
+    position:relative;
+}
+.about__left img{
+    border-radius: 30px;
+}
+
+.about__item span{
+    font-size: 30px;
+    color:#fb811e;
+}
+.about__item h4{
+    font-size: 24px;
+    color:var(--heading__color);
+    font-weight: 600;
+    margin-bottom:10px;
+}
+
+/* FEATURE ITEM */
+.feature__item{
+    text-align:center;
+}
+.feature__item span{
+    color:#009f4d;
+    width:80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    background-color: rgb(0 159 77 / 4%);
+    font-size:32px;
+    margin-bottom:1rem;
+}
+.feature__item .count__number{
+    font-size:3em;
+    font-weight: 600;
+    color:var(--heading__color);
+}
+.feature__item p{
+    font-size:17px;
+    color:var(--heading__color);
+}
+
+/* COVER */
+.cover{
+    background-image: url(../image/blogpage/bg2.jpg);
+    position: relative;
+}
+.cover::before{
+    content:"";
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    background: rgb(8 8 8 / 44%);
+}
+.cover .header h3, .cover .header h2{
+    color:white;
+}
+
+
+@media screen and (max-width:1200px) {
+    /* BLOG */
+    .about__item h4{
+        font-size:20px;
+    }
+}
+@media screen and (max-width:991px){
+    /* FEATURE */
+    .feature__item .count__number{
+        font-size:2.5em;
+    }
+}
 @media screen and (max-width:768px)  {
     /* HEADER */
     header .navbar-brand{
         color:var(--heading__color);
     }
+    /* FEATURE */
+    .feature__item span{
+        font-size:2.5em;
+    }
 }
+@media screen and (max-width:640px){
+    /* FEATURE */
+    .feature__item p{
+        font-size:1em;
+    }
+}
+@media screen and (max-width:480px){
+    /* FEATURE */
+    .feature__item .count__number{
+        font-size:2em;
+    }
+    .feature__item span{
+        font-size:2em;
+    }
+}
+
