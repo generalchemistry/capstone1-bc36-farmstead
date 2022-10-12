@@ -136,7 +136,7 @@
         grid-gap:20px;
     }
 }
-@media screen and (max-width:440px){
+@media screen and (max-width:415px){
     /* PRODUCT */
     .product__item{
         padding:40px 30px;
