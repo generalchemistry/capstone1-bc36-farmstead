@@ -226,7 +226,7 @@
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
-    margin-bottom:7px;
+    margin-bottom:6.4px;
 }
 .feedback__info h4{
     font-weight: 600;
@@ -327,16 +327,16 @@
         margin-bottom:-45px;
     }
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:440px){
     /* FEATURE */
-    .feature__item .count__number{
-        font-size:2em;
+    .feature__left p{
+        font-size:15px;
     }
-    .feature__item span{
-        font-size:2em;
+    .feature__right{
+        grid-template-columns:1fr;
+        grid-gap:20px;
     }
 }
-
 @media screen and (max-width:415px) {
     /* FEEDBACK */
     .feedback__info img{
@@ -348,5 +348,12 @@
     }
     .feedback__info h4{
         font-size:18px;
+    }
+}
+
+@media screen and (max-width:384px)  {
+    /* FEATURE */
+    .feature__item h4{
+        font-size:20px;
     }
 }

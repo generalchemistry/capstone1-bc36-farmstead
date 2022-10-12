@@ -125,8 +125,12 @@ header .dropdown-menu.show{
     visibility: visible;
 }
 header .dropdown-toggle{
-    color:white;;
-    font-size:28px;
+    color:white;
+    font-size:29px;
+    
+}
+header .dropdown-toggle i{
+    line-height: 1em;
 }
 header .dropdown-menu a{
     color:var(--heading__color);
@@ -174,17 +178,17 @@ header .header__search input:focus{
 header .mode_lightdark {
     width: 34px;
     height: 24px;
-    margin:0 10px 0 7px;
+    margin:0 5px 0 10px;
     text-align:center;
 }
-header .material-symbols-outlined{
+header .mode_lightdark i{
     color:white;
     font-size:28px;
     line-height: 20px;
     font-weight: 300;
     cursor:pointer;
 }
-header .navbar button:hover .material-symbols-outlined{
+header .navbar .mode_lightdark button:hover i{
     color:#fb811e;
 }
 header .mode_lightdark button:nth-child(2) {
@@ -208,7 +212,7 @@ header.nav__fixed{
     height:70px;
     box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
 }
-header.nav__fixed .navbar-brand,header.nav__fixed .mode_lightdark .material-symbols-outlined, header.nav__fixed .dropdown-toggle{
+header.nav__fixed .navbar-brand,header.nav__fixed .mode_lightdark i, header.nav__fixed .dropdown-toggle{
     color:var(--heading__color);
 }
 
@@ -266,7 +270,7 @@ footer .logo a:hover{
     color: var(--heading__color);
 }
 footer p.firstChildLogo{
-    margin-top:26px;
+    margin-top:26.4px;
 }
 footer #contact p{
     line-height: 24px;
@@ -365,9 +369,7 @@ footer .social__app a i:hover{
         max-width:1200px;
     }
 }
-@media screen and (max-width:1440px) {
 
-}
 @media screen and (max-width:1200px) {
     p{
         line-height: 26px;
@@ -433,12 +435,19 @@ footer .social__app a i:hover{
         line-height: 42px;
     }
 }
+@media screen and (max-width:756px)  {
+    /* FOOTER */
+    footer p.firstChildLogo{
+        margin-top:27.2px;
+    }  
+}
 @media screen and (max-width:640px){
      /* FOOTER */
     footer form button{
        padding:12px 10px;
     } 
 }
+
 @media screen and (max-width:568px)  {
     .header h3{
         font-size:18px;

@@ -43,6 +43,7 @@
 .banner .carousel-image{
     min-height: 100vh;
     background-size: cover;
+    background-position: center top;
 }
 .banner .carousel-image::before{
     content:"";
@@ -114,7 +115,7 @@
     width:100%; 
 }
 .services__content{
-    padding:30px 21px;
+    padding:30px 21px 31px;
 }
 .services__content span{
     color:#009f4d;
@@ -289,7 +290,7 @@
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
-    margin-bottom:7px;
+    margin-bottom:6.4px;
 }
 .feedback__info h4{
     font-weight: 600;
@@ -511,6 +512,10 @@
     }
 }
 @media screen and (max-width:1200px) {
+    /* BANNER */
+    .carousel-caption h4{
+        font-size:calc(1.275rem + 0.3vw);
+    }
     /* BLOG */
     .blog__item h4{
         font-size:20px;
@@ -573,9 +578,6 @@
     
 }
 
-@media screen and (max-width:800px)  {
-
-}
 @media screen and (max-width:768px)  {
     /* BANNER */
     .banner .container-fluid .carousel__left{
@@ -586,11 +588,6 @@
         background-color: var(--bg__color);
         padding:3em 2em 2em 4em;
         border-radius: 8px;
-    }
-
-    /* BLOG */
-    .blog__right .img__detail{
-        left:-50px;
     }
 
     /* PRODUCT */
@@ -605,6 +602,12 @@
     /* CONTACT */
     .contact__detail h5{
         font-size: 17px;
+    }
+}
+@media screen and (max-width:738px){
+    /* BLOG */
+    .blog__right .img__detail{
+    left:-50px;
     }
 }
 @media screen and (max-width:736px){

@@ -114,13 +114,20 @@
         font-size:1em;
     }
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:440px){
     /* FEATURE */
-    .feature__item .count__number{
-        font-size:2em;
+    .feature__left p{
+        font-size:15px;
     }
-    .feature__item span{
-        font-size:2em;
+    .feature__right{
+        grid-template-columns:1fr;
+        grid-gap:20px;
     }
 }
 
+@media screen and (max-width:384px)  {
+    /* FEATURE */
+    .feature__item h4{
+        font-size:20px;
+    }
+}
